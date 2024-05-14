@@ -1,0 +1,67 @@
+body {
+  background: url(./wall/chill-mario-pixel-moewalls-com.gif);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.t1 {
+  border-radius: 15px 50px;
+  background-color: #0076a3;
+  box-shadow: 5px 10px #005b7f;
+  text-shadow: horizontal-offset vertical-offset blur color;
+  text-shadow: 4px 6px 5px rgba(0, 0, 0, 0.3);
+}
+.title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 1.6rem;
+  text-align: center;
+}
+
+.title::before,
+.title::after {
+  content: "";
+  height: 10px;
+  background-color: blueviolet;
+  display: block;
+  border-radius: 5px;
+}
+.b1 {
+  border-top: 10px groove #6e2e91;
+  border-right: 10px groove #8d2472;
+  border-bottom: 10px groove #e6288c;
+  border-left: 10px groove #cc4eab;
+}
+.img1 {
+  width: 50%;
+}
+span {
+  color: yellow;
+}
+.t2 {
+  text-decoration: underline blueviolet;
+}
+.c1 {
+  border-radius: 50px 10px;
+  background-color: #0076a3;
+  box-shadow: 5px 10px #005b7f;
+  text-shadow: horizontal-offset vertical-offset blur color;
+  text-shadow: 4px 6px 5px rgba(0, 0, 0, 0.3);
+}
+img {
+  width: 100%;
+}
+.logo {
+  width: 50%;
+}
+.web {
+  height: 750px;
+}
+.bi {
+  font-size: 50px;
+}
